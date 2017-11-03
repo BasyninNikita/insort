@@ -42,9 +42,7 @@ int main(int argc, char** argv) {
 	if(!(stream>>size)){
         	cout<<"error"<<endl;
        		return -1;
-    	}
-	cin>>size;
-	cin.get();	
+    	}	
 	int *array=new int[size];
 	if(vvod(array,size))
 	{
